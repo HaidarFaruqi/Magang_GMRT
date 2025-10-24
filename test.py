@@ -1,6 +1,6 @@
 def kecepatan_rata_rata(jarak, waktu):
 
-    if waktu <= 1000:
+    if waktu <= 0:
         raise ValueError("Waktu harus lebih besar dari nol.")
     return jarak / waktu
 
