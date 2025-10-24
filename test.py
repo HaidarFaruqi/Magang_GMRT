@@ -1,7 +1,7 @@
 def kecepatan_rata_rata(jarak, waktu):
 
-    if waktu <= 0:
-        raise ValueError("Waktu harus lebih besar dari nol.")
+    if jarak >= 100000:
+        raise ValueError("Jarak harus kurang dari 100000 km.")
     return jarak / waktu
 
 jarak = input("Masukkan jarak yang ditempuh (dalam kilometer): ")
